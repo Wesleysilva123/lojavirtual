@@ -6,8 +6,7 @@
 
 body {
   max-width: 100%;
-  height: 100vh;
-  background-color: #1a1a1a;
+  background-color: #ffffff;
 }
 
 header {
@@ -64,8 +63,12 @@ header {
   width: 60%;
   height: 17vw;
   border-radius: 50%;
-  background-color: #ccc;
+  background-color: rgb(99, 84, 84);
   margin: 0 auto;
+}
+.logo img {
+  border-radius: 50%;
+  border: 2px solid black;
 }
 
 #cxnu {
@@ -93,7 +96,7 @@ header {
 .enav {
   width: 30%;
   min-height: 0 auto;
-  background-color: #333;
+  background-color: #dae4c7;
   border-radius: 10px;
   grid-area: sidnav;
   grid-row: sidnav;
@@ -105,7 +108,7 @@ header {
 .cln1 {
   width: 70%;
   height: 81vw;
-  background-color: #333;
+  background-color: #dae4c7;
   border-radius: 10px
   padding: 4vw 0vw 0vw;
   border-radius: 10px;
@@ -134,9 +137,12 @@ header {
   border-radius: 50%;
   display: block;
 }
+.rds img {
+  border-radius: 50%;
+}
 
 .tp1 {
-  background-color: #1a1a1a;
+  background-color: #cedda59c;
   width: 90%;
   height: 10vw;
   margin: 4vw auto;
@@ -150,7 +156,7 @@ header {
 }
 
 .ctcl {
-  background-color: #1a1a1a;
+  background-color: #ccd8b4;
   width: 90%;
   height: 60vw;
   margin: 0 auto; 
